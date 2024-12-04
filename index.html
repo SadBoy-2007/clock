@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A futuristic digital clock with beautiful animations and dark mode support.">
+  <meta name="author" content="Your Name">
+  <title>Jam Digital Futuristik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background with Mountain and Forest -->
+  <div class="background"></div>
+
+  <!-- Particle Container -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Clock Container -->
+  <div class="clock-container">
+    <div class="day-row" id="day-row"></div>
+    <div class="time-row" id="time" aria-live="polite">--:--:--</div>
+    <div class="date-row" id="date">---- --- --</div>
+  </div>
+
+  <!-- Dark Mode Button -->
+  <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle Dark Mode">🌙 Dark Mode</button>
+
+  <script src="javascript.js" defer></script>
+</body>
+</html>
